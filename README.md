@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/d653db82fe505495cbe9/maintainability)](https://codeclimate.com/github/ynb4gang/Json_Ticket_Parser/maintainability)
+
 # Flight Ticket Analyzer
 
 ## Introduction
