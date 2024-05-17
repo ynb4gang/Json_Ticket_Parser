@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'smth'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation ("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.3")
+    testImplementation ("org.assertj:assertj-core:3.21.0")
+}
+
+test {
+    useJUnitPlatform()
+}
